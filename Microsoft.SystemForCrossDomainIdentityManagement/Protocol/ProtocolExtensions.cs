@@ -1102,7 +1102,7 @@ namespace Microsoft.SCIM
             if
             (
                 !string.Equals(
-                    Microsoft.SCIM.AttributeNames.PhoneNumbers,
+                    Microsoft.SCIM.AttributeNames.Roles,
                     operation.Path.AttributePath,
                     StringComparison.OrdinalIgnoreCase)
             )
